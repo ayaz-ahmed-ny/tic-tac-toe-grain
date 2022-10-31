@@ -1,0 +1,5 @@
+@mixin phone-only-css {
+  @media (max-width: 699px) {
+    @content;
+  }
+}
